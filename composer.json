@@ -1,0 +1,28 @@
+{
+    "name": "giagabo/flarum-ext-georgian",
+    "type": "flarum-extension",
+    "description": "Georgian language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "ქართული",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "ge",
+            "title": "ქართული"
+        }
+    }
+}
